@@ -6,6 +6,16 @@ Designed as part of a front-end learning journey.
 
 ---
 
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flexbox-2965F1?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Responsive-47A248?style=for-the-badge&logo=staticman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Font%20Awesome-538DD7?style=for-the-badge&logo=fontawesome&logoColor=white" />
+</p>
+
+---
+
 ## 📸 Screenshots
 
 ### 🏠 Home (Hero Section)
@@ -24,25 +34,15 @@ Designed as part of a front-end learning journey.
 
 ## ✨ Features
 
-- Fully responsive layout  
-- Clean and modern UI  
-- Hero introduction section  
-- About / Services area  
-- Rooms section with cards  
-- Image gallery (grid)  
-- Customer service section  
-- Manager / Team cards  
-- Blog page layout  
-- Contact form  
-- Reusable CSS structure  
+- Fully responsive layout (mobile, tablet, desktop)
+- Clean and modern user interface
+- Hero section with background image and call-to-action
+- Gallery section with image grid layout
+- Rooms section with service cards
+- Team / Manager profile cards
+- Blog page layout with preview cards
+- Contact form design
+- Smooth scrolling experience
+- Reusable and well-structured CSS architecture
 
 ---
-
-## 🛠️ Technologies Used
-
-- **HTML5**
-- **CSS3**
-- **Flexbox**
-- **Responsive Design**
-- **Font Awesome Icons**
-
