@@ -468,3 +468,148 @@ nav{
   text-align: center;
   padding-top: 5px;
 }
+
+@media(max-width: 768px) {
+
+   /* NAVBAR */
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  #logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu a {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  /* HERO */
+  #hero-section {
+    height: 70vh;
+    padding: 0 20px;
+  }
+
+  #hero-section-div h1 {
+    font-size: 36px;
+  }
+
+  #hero-section-div p {
+    font-size: 16px;
+  }
+
+  /* ABOUT KUTULARI ALT ALTA */
+  #about-section {
+    flex-direction: column;
+  }
+
+  .item {
+    padding: 40px 20px;
+  }
+
+  .item-icon {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* ROOMS: YAN YANA DEĞİL ALT ALTA */
+  #rooms-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #rooms-picture {
+    height: 250px;
+  }
+
+  #rooms-feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* GALLERY RESİMLERİ: 2 SÜTUN */
+  #gallery-section-picture img {
+    flex: 50%;
+    width: 50%;
+  }
+
+  /* CUSTOMER SERVICE: ALT ALTA */
+  #customer-Service-section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  #customer-Service-feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #customer-Service-picture {
+    height: 250px;
+  }
+
+  /* ROOMS CARDLAR */
+  .rooms-grid {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .room-card {
+    flex: 1 1 100%;
+  }
+
+  /* MANAGER KARTLARI */
+  #manager-section-photo {
+    flex-direction: column;
+  }
+
+  .manager-card {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .manager-card img {
+    height: 260px;
+  }
+
+  /* CONTACT: RESİM + FORM ALT ALTA */
+  #contact-div {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  #contact-form {
+    max-width: 100%;
+  }
+}
+
+/* Küçük telefonlar için ekstra ayar */
+@media (max-width: 480px) {
+
+  #hero-section-div h1 {
+    font-size: 28px;
+  }
+
+  #hero-section-div p {
+    font-size: 14px;
+  }
+
+  #gallery-section-div h2 {
+    font-size: 32px;
+  }
+
+  #gallery-section-picture img {
+    flex: 100%;
+    width: 100%;
+  }
+}
+
