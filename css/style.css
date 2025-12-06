@@ -1,0 +1,470 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*navbar*/
+nav{
+  display:flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+  top: 0;
+  background-color:rgba(0, 0, 0, 0.4);
+
+}
+
+#logo{
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.fa-solid{
+  font-size: 30px;
+}
+
+.menu{
+  display: flex;
+  list-style-type: none;
+}
+
+.menu a{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 25px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.menu a:hover{
+  border-bottom:2px solid sandybrown;
+}
+
+/*giris*/
+#hero-section{
+  background-image:
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url(../img/bg-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero-section-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+}
+
+#hero-section-div h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+#hero-section-div p {
+  color: #fff;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 5px 0 15px;
+
+}
+
+#hero-section-div a{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+
+/*hakkında*/
+
+#about-section{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  flex: 25%;
+  height: 100%;
+  padding: 80px;
+}
+
+.item h3{
+  text-align: center;
+}
+
+.item p{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.item-icon{
+  padding-left: 80px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: #007bff;
+}
+
+/*oda*/
+
+#rooms-section{
+  width: 100%;
+  height: 400px;
+  display: flex;
+
+}
+
+#rooms-picture{
+  flex: 50%;
+  background-image: url(../img/about1.jpeg);
+  background-size: cover;
+  width: 100%;
+
+}
+
+#rooms-feature{
+  flex: 50%;
+  background-color: grey;
+  padding-top:160px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+#rooms-feature h2{
+  padding-bottom: 16px;
+  font-size: 30px;
+}
+
+#rooms-feature p{
+  padding-bottom: 16px;
+  font-size: 20px;
+}
+
+#rooms-feature button{
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid rgba(255,255,255,.85);
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
+
+/*resim*/
+
+#gallery-section-div{
+  height: 200px;
+  width: 100%;
+}
+
+#gallery-section-div h2{
+  text-align: center;
+  font-size: 50px;
+  padding: 40px;
+}
+
+#gallery-section-div p{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#gallery-section-picture{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+#gallery-section-picture img{
+  flex: 25%;
+  width: 25%;
+  padding: 10px 5px;
+  flex-wrap:wrap-reverse
+}
+
+#gallery-section-picture img:hover{
+  opacity:0.8;
+  cursor: pointer;
+}
+
+/*Müşteri hizmetleri*/
+
+#customer-Service-section{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  padding-top: 50px;
+
+}
+
+#customer-Service-picture{
+  flex: 1;
+  background-image:
+  linear-gradient(rgba(0,0,0,0.3)),
+  url(../img/4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#customer-Service-feature{
+  flex: 1;
+  background-color: #007bff;
+  padding-top:100px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+#customer-Service-feature h2{
+  padding-bottom: 16px;
+  font-size: 30px;
+}
+
+#customer-Service-feature p{
+  padding-bottom: 16px;
+  font-size: 20px;
+}
+
+#customer-Service-feature button{
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid rgba(255,255,255,.85);
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
+
+
+
+.rooms-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.rooms-section h2 {
+  font-size: 44px;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+.rooms-section .lead {
+  color: #6b7280;
+  margin: 0 0 28px;
+}
+
+
+.rooms-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.room-card {
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  background: #fff;
+}
+
+
+.room-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.room-card .detail {
+  background: #f7a300;
+  color: #fff;
+  text-align: center;
+  padding: 16px 18px;
+}
+.room-card .detail h3 {
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+.room-card .detail p {
+  opacity: .9;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*Yönetici*/
+#manager-section{
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+}
+
+#manager-section-feature{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#manager-section-feature h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+#manager-section-feature p{
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#manager-section-photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.manager-card {
+  flex: 1 1 30%;
+  max-width: 30%;
+}
+
+.manager-card img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  padding-top: 30px;
+}
+
+.manager-card h2{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.manager-card p{
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*iletişim*/
+
+#contact-section{
+  width: 100%;
+  min-height: 60vh;
+}
+
+#contact-div{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 60px;
+}
+
+.contact{
+  flex: 2;
+}
+
+.contact img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#contact-form{
+  width: 100%;
+  max-width: 400px;      
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#contact-form input[type="button"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+#contact-form h2{
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+  text-align: left;
+}
+
+/*alt kısım*/
+
+#footer{
+  background-color: #f7f6fb;
+  padding: 20px 0;
+  color: #333;
+}
+
+.social-icons{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+.social-icons a{
+  color: red;
+  margin: 5px;
+}
+
+.social-icons a:hover{
+  opacity: 0.7;
+}
+
+#footer p{
+  text-align: center;
+  padding-top: 5px;
+}

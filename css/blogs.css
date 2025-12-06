@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero-section-blogs{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(../img/bg-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Blog Card*/
+
+#blog-section{
+    width: 100%;
+    padding: 30px;
+}
+
+#blog-container{
+    display: flex;
+}
+
+#blog-picture{
+    flex: 50%;
+    background-image: url(../img/blog-1.jpeg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+#blog-feature{
+  flex: 50%;
+  background-color: grey;
+  padding-top:160px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+#blog-feature h2{
+   padding-bottom: 16px;
+   font-size: 30px;
+}
+
+#blog-feature p{
+   padding-bottom: 16px;
+   font-size: 20px;
+}
+
+#blog-feature button{
+  display: inline-block;
+  padding: 10px 22px;
+  margin-top: 20px;
+  border: 1px solid rgba(255,255,255,.85);
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
+
+/*blog card 2*/
+
+#blog-section-2{
+    width: 100%;
+    padding: 30px;
+}
+
+#blog-container-2{
+    display: flex;
+}
+
+#blog-picture-2{
+    flex: 50%;
+    background-image: url(../img/blog-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#blog-feature-2{
+  flex: 50%;
+  background-color: grey;
+  padding-top:160px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+#blog-feature-2 h2{
+   padding-bottom: 16px;
+   font-size: 30px;
+}
+
+#blog-feature-2 p{
+   padding-bottom: 16px;
+   font-size: 20px;
+}
+
+#blog-feature-2 button{
+  display: inline-block;
+  padding: 10px 22px;
+  margin-top: 20px;
+  border: 1px solid rgba(255,255,255,.85);
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
+
+/*blog card 3*/
+
+#blog-section-3{
+    width: 100%;
+    padding: 30px;
+}
+
+#blog-container-3{
+    display: flex;
+}
+
+#blog-picture-3{
+    flex: 50%;
+    background-image: url(../img/blog-3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#blog-feature-3{
+  flex: 50%;
+  background-color: grey;
+  padding-top:160px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+#blog-feature-3 h2{
+   padding-bottom: 16px;
+   font-size: 30px;
+}
+
+#blog-feature-3 p{
+   padding-bottom: 16px;
+   font-size: 20px;
+}
+
+#blog-feature-3 button{
+  display: inline-block;
+  padding: 10px 22px;
+  margin-top: 20px;
+  border: 1px solid rgba(255,255,255,.85);
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
