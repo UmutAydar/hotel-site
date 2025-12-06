@@ -20,9 +20,6 @@ Designed as part of a front-end learning journey.
 ### 📝 Blog Page
 ![Blog](img/screenshot-blog.png)
 
-### 📩 Contact Section
-![Contact](img/screenshot-contact.png)
-
 ---
 
 ## ✨ Features
